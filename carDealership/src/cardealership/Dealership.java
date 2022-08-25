@@ -10,10 +10,10 @@ import java.util.ArrayList;
 
 public class Dealership {
 
-    private String company;
-    private Manager manager;
-    private ArrayList<SalesPerson> people = new ArrayList<>();
-    private ArrayList<Car> cars = new ArrayList<>();
+    private final String company;
+    private final Manager manager;
+    private final ArrayList<SalesPerson> people = new ArrayList<>();
+    private final ArrayList<Car> cars = new ArrayList<>();
 //******************************************************************************
 
     Dealership(String company, Manager manager) {
@@ -26,6 +26,10 @@ public class Dealership {
         cars.add(car);
     } // end addCar method 
 
+    /**
+     *
+     * @param person
+     */
     public void addPerson(SalesPerson person) {
         people.add(person);
     } // end addPerson method
