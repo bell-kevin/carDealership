@@ -1,6 +1,8 @@
 # carDealership
 Car dealership UML using composition and aggregation
 
+![car](https://github.com/bell-kevin/carDealership/blob/main/outputCar.PNG)
+
 == We're Using GitHub Under Protest ==
 
 This project is currently hosted on GitHub.  This is not ideal; GitHub is a
