@@ -1,5 +1,5 @@
 /** ****************************************************************************
- * DealershipDriver.java
+ * Dealership.java
  * Kevin Bell
  *
  * This class represents an auto retail sales organization.
