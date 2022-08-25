@@ -10,12 +10,12 @@ public class DealershipDriver {
 
     public static void main(String[] args) {
         Manager kevin = new Manager("Kevin Bell");
-        SalesPerson andrea = new SalesPerson("Sean Hannity");
-        SalesPerson ruthAnn = new SalesPerson("Glenn Beck");
+        SalesPerson foxNews = new SalesPerson("Sean Hannity");
+        SalesPerson blazeTV = new SalesPerson("Glenn Beck");
         Dealership dealership = new Dealership("Okay Used Cars", kevin);
         
-        dealership.addPerson(andrea);
-        dealership.addPerson(ruthAnn);
+        dealership.addPerson(foxNews);
+        dealership.addPerson(blazeTV);
         dealership.addCar(new Car("Toyota"));
         dealership.addCar(new Car("Honda"));
         dealership.addCar(new Car("Nissan"));
