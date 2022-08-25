@@ -1,7 +1,11 @@
 # carDealership
 Car dealership UML using composition and aggregation
 
+UML
+
 ![class diagram](https://github.com/bell-kevin/carDealership/blob/main/car.PNG)
+
+Output
 
 ![car](https://github.com/bell-kevin/carDealership/blob/main/outputCar.PNG)
 
